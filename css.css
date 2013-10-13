@@ -1,0 +1,232 @@
+﻿body {
+    margin: 0 auto;
+    background-image: url("http://www.unsigneddesign.com/Seamless_background_textures/thumbs/seamlesstexture29_1200.jpg");
+    background-attachment: fixed;
+    font-family: Verdana;
+}
+.top {
+    height: 50px;
+    max-height: 50px;
+    min-width: 270px;
+    padding: 5px;
+    width: auto;
+    vertical-align: middle;
+    /*float: left;*/
+}
+.midTable {
+    width: 100%;
+    height: auto;
+    /*background-color: #424242;*/
+    background-color: #008000;
+    border: 0px solid #ffffff;
+    border-collapse: collapse;
+    margin: 0;
+}
+.menu {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 15%;
+    height: auto;
+    background-color: #A0A0A0;
+    /*background-color: #008000;*/
+    color: #ffffff;
+}
+.diag {
+    width: 85%;
+    height: auto;
+    background-color: #FFFFFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#ltbProjetos {
+    width: 100%;
+    height: 95%;
+    min-height: 200px;
+}
+#titleMenu {
+    font-family: Verdana;
+    font-size: 24px;
+}
+#logoImg {
+    max-height: 50px;
+}
+#titleApp {
+    font-family: Verdana;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    width: 100%;
+    height: 100%;
+}
+
+#menu {
+    list-style: none;
+    border: 0px solid #c0c0c0;
+    float: left;
+    font-family: Verdana;
+}
+
+    #menu li {
+        position: relative;
+        float: left;
+        border-right: 0px solid #c0c0c0;
+        font-size: 24px;
+        /*background-color: #424242;*/
+        background-color: #008000;
+    }
+
+    #menu li a {
+        text-decoration: none;
+        padding: 5px 10px;
+        display: block;
+        color: #ffffff;
+    }
+
+    #menu li a:hover {
+        background: #333;
+        color: #fff;
+        /*-moz-box-shadow: 0 3px 10px 0 #CCC;
+        -webkit-box-shadow: 0 3px 10px 0 #ccc;*/
+        text-shadow: 0px 0px 5px #fff;
+    }
+
+    #menu li ul {
+        position: absolute;
+        top: 38px;
+        left: 0;
+        /*background-color: #fff;*/
+        display: none;
+        font-size: 14px;
+    }
+
+    #menu li:hover ul, .menu li.over ul {
+        display: block;
+    }
+
+    #menu li ul li {
+        border: 0px solid #c0c0c0;
+        display: block;
+        width: 150px;
+    }
+
+#tblDiag {
+    width: 80%;
+    background-color: #ffffff;
+    height: 100%;
+    border: 1px solid;
+}
+
+#tblDiag tr {
+    border: 0px solid #ffffff;
+    margin: 0px;
+}
+
+#tblDiag tr td {
+    width: 33%;
+    border: 0px solid #ffffff;
+}
+
+#tblDiagTopL {
+    background-image: url("img/TL.png");
+    background-size: 100% 100%; 
+    height: 60px;
+    vertical-align: top;
+    min-width: 321px;
+    font-size: 28px;
+    border: 0px solid #ffffff;
+}
+
+#tblDiagTopM {
+    background-image: url("img/TM.png");
+    background-size: 100% 100%; 
+    height: 60px;
+    min-width: 321px;
+    border: 0px solid #ffffff;
+}
+
+#tblDiagTopR {
+    background-image: url("img/TR.png");
+    background-size: 100% 100%; 
+    height: 60px;
+    min-width: 321px;
+    vertical-align: top;
+    text-align: right;
+    font-size: 28px;
+}
+.tblDiagMidL {
+    background-image: url("img/ML.png");
+    background-size: 100% 100%;
+    min-height: 80px;
+    height: 80px;
+    padding: 15px;
+    max-height: 100%;
+}
+.tblDiagMidM {
+    background-image: url("img/TM.png");
+    background-size: 100% 100%;
+    min-height: 80px;
+    height: 80px;
+    padding: 15px;
+    text-align: center;
+}
+.tblDiagMidR {
+    background-image: url("img/MR.png");
+    background-size: 100% 100%;
+    min-height: 80px;
+    height: 80px;
+    padding: 15px;
+    text-align: right;
+}
+.tblDiagBotL {
+    background-image: url("img/BL.png");
+    background-size: 100% 100%;
+    max-height: 35px;
+    height: 35px;
+    padding: 15px;
+    max-height: 100%;
+}
+.tblDiagBotM {
+    background-image: url("img/BM.png");
+    background-size: 100% 100%;
+    max-height: 35px;
+    height: 35px;
+    padding: 15px;
+    text-align: center;
+}
+.tblDiagBotR {
+    background-image: url("img/BR.png");
+    background-size: 100% 100%;
+    max-height: 35px;
+    height: 35px;
+    padding: 15px;
+    text-align: right;
+}
+.tblDiagBot {
+    background-image: url("img/TM.png");
+    background-size: 100% 100%;
+    min-height: 100px;
+    height: 100px;
+    padding: 15px;
+    text-align: center;
+}
+.textBox {
+    font-family: Verdana;
+}
+
+.menuLink {
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    color: #ffffff;
+}
+
+    .menuLink:hover {
+        background: #333;
+        color: #fff;
+        text-shadow: 0px 0px 5px #fff;
+        cursor: pointer;
+    }
